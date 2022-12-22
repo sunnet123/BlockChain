@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a1",
+						"type": "uint256"
+					}
+				],
+				"name": "setA1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TestAbi2.sol": "TestAbi2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TestAbi2.sol": {
+			"keccak256": "0x9dcbc4885a251b1fe314d35776599ec2ef9cfc72f1bb525ebb7ec426b543a6af",
+			"urls": [
+				"bzz-raw://717935d0c78204fd38c613505c6dee23193497c78a0da7c7a256a91f8d1281b0",
+				"dweb:/ipfs/QmWGhEMuEsK3B1ifagbyiQGGkZ1fJoLZkFyWrQfmjReXtd"
+			]
+		}
+	},
+	"version": 1
+}
